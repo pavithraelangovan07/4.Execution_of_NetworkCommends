@@ -52,12 +52,15 @@ server
     print(s.recv(1024).decode())
 ```
 TRACEROUTE COMMAND:
+```
     from scapy.all import*     
     target = ["www.google.com"]     
     result, unans = traceroute(target,maxttl=32) 
     print(result,unans)
+ ```   
 ## Output
 ![image](https://github.com/user-attachments/assets/84ec3d14-9d0f-4a20-a894-96f64850f605)
+![image](https://github.com/user-attachments/assets/f4fd2369-f8cd-459f-8722-185e74db92de)
 
 ## Result
 Thus Execution of Network commands Performed 
